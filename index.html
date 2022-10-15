@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TNM048 Project 2022</title>
+    <link rel="stylesheet" href="libs/css/index.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body class="body">
+    <h1>Movie visualization</h1>
+
+	<div id="wrapper1">
+
+		<div id="scatterplot"></div>
+
+		<div id="radarchart">
+			<div id="radarchartlegend"></div>
+		</div>
+
+		<div id="barchart"></div>
+
+	</div>
+
+	<div id="wrapper2">
+	
+		<div id="details">
+			<br>
+			<h5><strong>Information</strong></h5>
+			<p>Detailed information about hovered movie in scatterplot</p>
+			<hr>
+			<p><span id="title">Movie Title</span></p>
+			<p><span id="releasedate">Relase Date</span></p>
+			<p><span id="genre">Genre</span></p>
+			<!--<p><span id="overview">Overview</span></p>-->
+			<p><span id="runtime">Runtime</span></p>
+			<p><span id="language">Original Language</span></p>
+			<p><span id="budget">Budget</span></p>
+			<p><span id="revenue">Revenue</span></p>
+			<p><span id="voteavr">Average Rating</span></p>
+		</div>
+		<div id="color-info">
+			<br>
+			<h5><strong>Color Coding</strong></h5>
+			<p>Color for scatterplot and barchart</p>
+			<hr>
+		</div>
+		</div>
+		
+	</div>
+</body>
+
+<script type=text/javascript src="libs/jquery/jquery.min.js"></script>
+<script type=text/javascript src=libs/bootstrap/js/bootstrap.min.js></script>
+<script type="text/javascript" src="libs/d3/d3.min.js"></script>
+
+<!-- our scripts -->
+
+<script src="js/main.js"></script>
+<script src="js/reformat.js"></script>
+<script src="js/sp.js"></script>
+<script src="js/rc.js"></script>
+<script src="js/bc.js"></script>
+<script src="js/color_info.js"></script>
+<script src="js/plot_points.js"></script>
+
+</html>
+
